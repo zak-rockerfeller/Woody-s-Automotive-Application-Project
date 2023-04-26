@@ -1,0 +1,39 @@
+name: web_frontend
+description: A new Flutter project.
+
+# The following line prevents the package from being accidentally published to
+# pub.dev using `flutter pub publish`. This is preferred for private packages.
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.17.6 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.2
+  flutter_zoom_drawer: ^3.0.2
+  shared_preferences: ^2.0.13
+  http: ^0.12.2
+  get_storage:
+  get:
+  font_awesome_flutter:
+  google_nav_bar: ^5.0.6
+  bootstrap_icons:
+  simple_speed_dial: ^0.1.7
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+
+  flutter_lints: ^2.0.0
+
+flutter:
+
+
+  uses-material-design: true
+
